@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const logger = require('morgan');
 const fs = require('fs');
 const path = require('path');
-const port = process.env.Port || 8080;
+const port = process.env.PORT || 8080;
 
 
 //logging details
