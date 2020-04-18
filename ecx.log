@@ -1,0 +1,5 @@
+[Sat, 18 Apr 2020 19:19:03 GMT] GET localhost /alluser/5e9a14eb330dca06e46062ad - - - - ms
+[Sat, 18 Apr 2020 19:23:10 GMT] GET localhost /alluser/5e9a14eb330dca06e46062ad 200 516 - 106876.107 ms
+[Sat, 18 Apr 2020 19:36:35 GMT] GET localhost /alluser/5e9a14eb330dca06e46062ad 200 10 - 30120.953 ms
+[Sat, 18 Apr 2020 19:42:12 GMT] POST localhost /signup 200 24 - 27798.004 ms
+[Sat, 18 Apr 2020 19:50:54 GMT] POST localhost /login 200 201 - 20029.190 ms
