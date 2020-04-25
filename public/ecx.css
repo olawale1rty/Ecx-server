@@ -1,0 +1,38 @@
+body{
+    background: url(img/bubble-bg.png);
+    margin: 0;
+    padding: 0;
+    background-color: #DDD;
+  	font-family: 'Open Sans', arial, sans-serif;
+  	background-size: cover;
+	/*background-position: center;
+  	background-attachment: fixed;*/
+ 
+
+}
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	background: white;
+	padding: 50px;
+	border-radius: 30px;
+	border: 3px solid blue;	
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.8);
+}
+
+#head {
+	background: #DDD;
+	width: 100%;
+	margin: 0px auto;
+	padding: 10px;
+	border-radius: 40px;
+	color: blue;
+	font-family: sans-serif;
+	text-align: center;
+	position: relative;
+	border: 3px solid blue;
+}
