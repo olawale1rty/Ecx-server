@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node server.js"
-
   },
   "dependencies": {
     "node-pre-gyp": "0.14.0",
-    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
@@ -21,7 +20,7 @@
     "mongoose": "^5.9.9",
     "morgan": "^1.9.1"
   },
-  "engines":{
+  "engines": {
     "node": "12.6.0",
     "npm": "6.9.0"
   }
