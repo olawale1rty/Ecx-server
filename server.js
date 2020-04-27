@@ -35,7 +35,7 @@ app.get('/logs',(req, res)=>{
 app.use(express.static(path.join(__dirname,'/public')));
 
 //welcome page
-app.get(['*','/index.html'],(req, res)=>{
+app.get(['/','/index.html'],(req, res)=>{
 	res.sendFile(path.join(__dirname,'/public/ecx.html'));
 })
 
